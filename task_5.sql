@@ -1,4 +1,4 @@
--- Use the provided database (assumed to be passed as argument)
+-- Use the database passed as argument
 USE alx_book_store;
 
 -- Insert a single row into the Customers table

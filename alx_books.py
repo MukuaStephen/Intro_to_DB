@@ -3,15 +3,15 @@ import mysql.connector
 # Establish the connection to MySQL
 connection = mysql.connector.connect(
     host="localhost",
-    user="your_username",  # replace with your MySQL username
-    password="your_password"  # replace with your MySQL password
+    user= "Mukua# replace with your MySQL username
+    password="J17-3640-2023"  # replace with your MySQL password
 )
 
 cursor = connection.cursor()
 
 # Execute SQL script
 with open("alx_book_store.sql", "r") as sql_file:
-    sql_script = sql_file.read()
+   sql_script = sql_file.read()
     
     # Split script by statements to execute one by one
     for statement in sql_script.split(';'):

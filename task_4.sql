@@ -1,10 +1,9 @@
 -- Use the provided database (assumed to be passed as argument)
 USE alx_book_store;
 
--- Get full description of the books table
+-- Get full description of the books table including the column type
 SELECT COLUMN_NAME,
-       DATA_TYPE,
-       CHARACTER_MAXIMUM_LENGTH,
+       COLUMN_TYPE,
        IS_NULLABLE,
        COLUMN_DEFAULT
 FROM INFORMATION_SCHEMA.COLUMNS
